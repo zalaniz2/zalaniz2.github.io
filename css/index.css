@@ -68,6 +68,7 @@ h1 {
 }
 .work-p{
   opacity: .7;
+  margin: 0px;
 }
 .p-wrap{
   font-size: 1.1rem;
@@ -105,6 +106,31 @@ hr{
   border: none;
 }
 .exit-modal{
-  color: #ffab40;
-  font-weight: bold;
+  color: #eceff1 ;
+  font-weight: bolder;
+}
+.exit-modal:hover{
+  color:  #eceff1 ;
+}
+.modal-link{
+  color: #ffb74d;
+}
+.modal-link:hover{
+  color: #ffb74d;
+}
+.college-hover:hover{
+  color: white;
+  background-color: purple;
+}
+
+.theme{
+  color: #ffb74d;
+  margin: 0px;
+}
+.college-link{
+  color: #9575cd;
+
+}
+.college-link:hover{
+  color: #d1c4e9 ;
 }

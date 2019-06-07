@@ -15,7 +15,7 @@
         <p class="title-p">software engineer</p>
         <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".exp-modal">experience</a></p>
         <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".edu-modal">education</a></p>
-        <p class="title-btn"><a href="#" class="btn btn-custom">projects</a></p>
+        <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".proj-modal">projects</a></p>
         <p class="title-btn"><a href="#" class="btn btn-custom">contact</a></p>
       </div>
 </div>
@@ -25,25 +25,28 @@
     <div class="modal-content modal-custom">
       <div class="modal-header modal-header-custom">
         <h5 class="modal-title" id="exp-modal-title">experience</h5>
-      <!--  <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button> -->
+        </button>
       </div>
       <div class="modal-body">
         <h5 class="modal-p">IT Developer Intern: <span class="text-hover">Blue Cross Blue Shield</span></h5>
         <p class="work-p">Summer 2018</p>
+        <p><a href="https://www.bcbs.com/" target="_blank" class="modal-link">www.bcbs.com</a></p>
+
         <div class="p-wrap">
           <p>
-             Worked as a software engineer where I gained knowledge in Java, Unit Testing, and Github, as well as agile/scrum methodologies.
+             Worked as a software engineer where I gained knowledge in <span class="text-hover">Java</span>, <span class="text-hover">Unit Testing</span>, <span class="text-hover">SQL</span>, and <span class="text-hover">Git/Github</span>, as well as <span class="text-hover">agile/scrum</span> methodologies.
              Developed and updated use cases for new company appeals application.
              Paired programming experiences with Database Administrators and Senior Developers.
           </p>
         </div>
         <h5 class="modal-p">Web Developer Intern: <span class="text-hover">Viasat</span></h5>
         <p class="work-p">Summer 2017</p>
+        <p><a href="https://www.viasat.com/" target="_blank" class="modal-link">www.viasat.com</a></p>
         <div class="p-wrap">
           <p>
-              Worked as a Web Developer where I gained knowledge in Javascript, PHP, and using Github.
+              Worked as a Web Developer where I gained knowledge in <span class="text-hover">Javascript</span>, <span class="text-hover">PHP</span>, <span class="text-hover">SQL</span>, and <span class="text-hover">Git/Github</span>.
               Implemented selection tool on company website for customers to decide best data plan for them based on their location.
               Reduced pagespeed and improved overall performance of company site by refactoring javascript code.
               Redesigned company dealer site and fixed login validation issues.
@@ -62,7 +65,31 @@
     <div class="modal-content modal-custom">
       <div class="modal-header modal-header-custom">
         <h5 class="modal-title" id="exp-modal-title">education</h5>
+        <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="modal-p"><span class="college-hover">Texas Christian University</span> (fall 2015 - fall 2019)</h5>
+        <p class="theme">Bachelor of Science</p>
+        <p class="work-p">Computer Science, GPA: 3.4</p>
+        <p><a href="https://www.tcu.edu" target="_blank" class="college-link">www.tcu.edu</a></p>
+      </div>
+      <div class="modal-footer modal-footer-custom">
+        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="modal fade proj-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content modal-custom">
+      <div class="modal-header modal-header-custom">
+        <h5 class="modal-title" id="exp-modal-title">projects</h5>
+        <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       <div class="modal-body">
 
@@ -73,34 +100,7 @@
     </div>
   </div>
 </div>
-<!--
-<div id="main-body" class="container">
-  <div id="experience">
-    <div class="section-title">
-    <h2>Experience</h2>
-    <hr>
-  </div>
-    <h4>IT Developer Intern: <span class="text-hover">Blue Cross Blue Shield</span></h4>
-    <h5 class="work-p">Summer 2018</h5>
-    <div class="p-wrap">
-      <p>Worked as a Web Developer where I gained knowledge in Javascript, PHP, and using Github.
-        Implemented selection tool for customers to decide best data plan for them based on their location.
-        Reduced pagespeed and improved overall performance of company site by refactoring javascript code.
-        Redesigned company dealer site and fixed login validation issues.
-      </p>
-    </div>
-    <h4>Web Developer Intern: <span class="text-hover">Viasat</span></h4>
-    <h5 class="work-p">Summer 2017</h5>
-    <div class="p-wrap">
-      <p>Worked as a software engineer where I gained knowledge in Java, Unit Testing, and Github.
-        Developed and updated use cases for new company appeals application.
-        Participated in and gained knowledge of the agile/scrum methodologies.
-        Paired programming experiences with Database Administrators and Senior Developers.
-      </p>
-    </div>
-  </div>
-</div>
--->
+
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
