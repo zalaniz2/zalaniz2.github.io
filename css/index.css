@@ -1,0 +1,78 @@
+.btn-custom{
+  color: #fff;
+  background-color: #263238;
+  border-color: #37474f;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: .3rem;
+  border-style: solid;
+  border-width: 1px;
+  padding: .6rem .9rem;
+
+}
+
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom.active {
+
+  background: #37474f;
+  color: #ffffff;
+  border-color: #455a64;
+}
+
+body {
+  font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: white;
+}
+#lastname{
+  color: #ffb74d ;
+}
+#firstname{
+}
+.title-btn{
+  display: inline-block;
+  font-size: .9rem;
+  margin-left: 1rem;
+}
+.title-p{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  opacity: .7;
+  color: white;
+}
+#title{
+  background-color: #263238;
+  padding: 5rem;
+}
+#main-body{
+  padding: 65px;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+h3{
+  color: #263238;
+  font-weight: 500;
+  font-family: Georgia;
+}
+.text-hover:hover{
+  background-color:  #ffb74d ;
+}
+.work-p{
+  opacity: .7;
+}
+.p-wrap{
+  font-size: 1.2rem;
+  background-color: #f8f9fa;
+  padding: 30px 30px 20px 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #eceff1;
+
+}
