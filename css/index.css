@@ -8,9 +8,7 @@
   border-style: solid;
   border-width: 1px;
   padding: .6rem .9rem;
-
 }
-
 .btn-custom:hover,
 .btn-custom:active,
 .btn-custom:focus,
@@ -20,12 +18,10 @@
   color: #ffffff;
   border-color: #455a64;
 }
-
 body {
   font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif;
   background-color: #263238;
 }
-
 h1 {
   font-weight: 700;
   font-size: 3.5rem;
@@ -50,11 +46,7 @@ h1 {
 #title{
   background-color: #263238;
   padding: 5rem;
-  margin-top: 10%;
-}
-#main-body{
-  padding: 65px;
-  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  margin-top: 9%;
 }
 .modal-p{
   color: white;
@@ -87,10 +79,6 @@ h1 {
   margin-bottom: 50px;
   color: #212121;
 }
-hr{
-  margin-top: 0px;
-}
-
 .modal-custom{
   background: #263238;
   color: white;
@@ -122,14 +110,12 @@ hr{
   color: white;
   background-color: purple;
 }
-
 .theme{
   color: #ffb74d;
   margin: 0px;
 }
 .college-link{
   color: #9575cd;
-
 }
 .college-link:hover{
   color: #d1c4e9 ;

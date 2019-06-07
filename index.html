@@ -1,112 +1,168 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Zach Alaniz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
-  <body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
 
-<div id="title">
-      <div class="text-center">
-        <h1><span id="firstname">zach</span> <span id="lastname">alaniz</span></h1>
-        <p class="title-p">software engineer</p>
-        <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".exp-modal">experience</a></p>
-        <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".edu-modal">education</a></p>
-        <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".proj-modal">projects</a></p>
-        <p class="title-btn"><a href="#" class="btn btn-custom">contact</a></p>
-      </div>
-</div>
+    <div id="title">
+          <div class="text-center">
+            <h1><span id="firstname">zach</span> <span id="lastname">alaniz</span></h1>
+            <p class="title-p">software engineer</p>
+            <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".exp-modal">experience</a></p>
+            <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".edu-modal">education</a></p>
+            <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".proj-modal">projects</a></p>
+            <p class="title-btn"><a href="#" class="btn btn-custom" data-toggle="modal" data-target=".contact-modal">contact</a></p>
+          </div>
+    </div>
 
-<div class="modal fade exp-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content modal-custom">
-      <div class="modal-header modal-header-custom">
-        <h5 class="modal-title" id="exp-modal-title">experience</h5>
-        <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h5 class="modal-p">IT Developer Intern: <span class="text-hover">Blue Cross Blue Shield</span></h5>
-        <p class="work-p">Summer 2018</p>
-        <p><a href="https://www.bcbs.com/" target="_blank" class="modal-link">www.bcbs.com</a></p>
+    <div class="modal fade exp-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">
+              experience
+            </h5>
+            <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5 class="modal-p">IT Developer Intern: <span class="text-hover">Blue Cross Blue Shield</span></h5>
+            <p class="work-p">Summer 2018</p>
+            <p><a href="https://www.bcbs.com/" target="_blank" class="modal-link">www.bcbs.com</a></p>
 
-        <div class="p-wrap">
-          <p>
-             Worked as a software engineer where I gained knowledge in <span class="text-hover">Java</span>, <span class="text-hover">Unit Testing</span>, <span class="text-hover">SQL</span>, and <span class="text-hover">Git/Github</span>, as well as <span class="text-hover">agile/scrum</span> methodologies.
-             Developed and updated use cases for new company appeals application.
-             Paired programming experiences with Database Administrators and Senior Developers.
-          </p>
+            <div class="p-wrap">
+              <p>
+                 Worked as a software engineer where I gained knowledge in <span class="text-hover">Java</span>, <span class="text-hover">Unit Testing</span>, <span class="text-hover">SQL</span>, and <span class="text-hover">Git/Github</span>, as well as <span class="text-hover">agile/scrum</span> methodologies.
+                 Developed and updated use cases for new company appeals application.
+                 Had paired programming experiences with Database Administrators and Senior Developers.
+              </p>
+            </div>
+            <h5 class="modal-p">Web Developer Intern: <span class="text-hover">Viasat</span></h5>
+            <p class="work-p">Summer 2017</p>
+            <p><a href="https://www.viasat.com/" target="_blank" class="modal-link">www.viasat.com</a></p>
+            <div class="p-wrap">
+              <p>
+                  Worked as a Web Developer where I gained knowledge in <span class="text-hover">Javascript</span>, <span class="text-hover">PHP</span>, <span class="text-hover">SQL</span>, and <span class="text-hover">Git/Github</span>.
+                  Implemented selection tool on company website for customers to decide best data plan for them based on their location.
+                  Reduced pagespeed and improved overall performance of company site by refactoring javascript code.
+                  Redesigned company dealer site and fixed login validation issues.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer modal-footer-custom">
+            <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+          </div>
         </div>
-        <h5 class="modal-p">Web Developer Intern: <span class="text-hover">Viasat</span></h5>
-        <p class="work-p">Summer 2017</p>
-        <p><a href="https://www.viasat.com/" target="_blank" class="modal-link">www.viasat.com</a></p>
-        <div class="p-wrap">
-          <p>
-              Worked as a Web Developer where I gained knowledge in <span class="text-hover">Javascript</span>, <span class="text-hover">PHP</span>, <span class="text-hover">SQL</span>, and <span class="text-hover">Git/Github</span>.
-              Implemented selection tool on company website for customers to decide best data plan for them based on their location.
-              Reduced pagespeed and improved overall performance of company site by refactoring javascript code.
-              Redesigned company dealer site and fixed login validation issues.
-          </p>
+      </div>
+    </div>
+
+    <div class="modal fade edu-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">
+              education
+            </h5>
+            <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5 class="modal-p"><span class="college-hover">Texas Christian University</span> (fall 2015 - fall 2019)</h5>
+            <p class="theme">Bachelor of Science</p>
+            <p class="work-p">Computer Science, GPA: 3.48</p>
+            <p><a href="https://www.tcu.edu" target="_blank" class="college-link">www.tcu.edu</a></p>
+          </div>
+          <div class="modal-footer modal-footer-custom">
+            <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
-      <div class="modal-footer modal-footer-custom">
-        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+    </div>
+
+    <div class="modal fade proj-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">
+              projects
+              <p class="title-btn">
+                <a href="https://www.github.com/zalaniz2" class="btn btn-custom" target="_blank">
+                  <img src="img/github.png" alt="Github Icon" width="20" height="20">
+                github
+              </a>
+              </p>
+            </h5>
+            <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5 class="modal-p">Jazz MIDI Application (JMA)</h5>
+            <p class="work-p">Node.js, MongoDB, Javascript, Web MIDI Api</p>
+            <p><a href="https://github.com/zalaniz2/jma" target="_blank" class="modal-link">jma repo</a></p>
+            <div class="p-wrap">
+              <p>
+                  JMA is an application built in Node.js that connects to MIDI controllers (keyboards, etc.) and runs users through excercises
+                  based on jazz theory. Each exercise is timed and provides feedback which includes wrong notes, correct/incorrect inputs, as well as accuracy and how long it took.
+                  Each exercise is stored and called upon from a Mongo Database, and which notes are being played are recieved through the Web MIDI Api (<a href="https://www.smashingmagazine.com/2018/03/web-midi-api/" target="_blank" class="modal-link">reference</a>).
+                  Feel free to check out the repo for more information.
+              </p>
+            </div>
+
+            <h5 class="modal-p">Floor Bot (Discord Bot)</h5>
+            <p class="work-p">Java, MySQL, JDA, JDBC</p>
+            <p><a href="https://github.com/zalaniz2/disc-bot" target="_blank" class="modal-link">floor bot repo</a></p>
+            <div class="p-wrap">
+              <p>
+                  Floor Bot is a discord bot created in java that simulates a multiplayer RPG game within a discord server. It supports 25+ commands that range from combat to trading. Player and game information is created and stored
+                  in a SQL database. JDA (<a href="https://github.com/DV8FromTheWorld/JDA" target="_blank" class="modal-link">reference</a>) is a Java wrapper for the discord api. Check out the bot repo for more information on how the game works and commands.
+              </p>
+            </div>
+
+          </div>
+          <div class="modal-footer modal-footer-custom">
+            <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="modal fade edu-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content modal-custom">
-      <div class="modal-header modal-header-custom">
-        <h5 class="modal-title" id="exp-modal-title">education</h5>
-        <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h5 class="modal-p"><span class="college-hover">Texas Christian University</span> (fall 2015 - fall 2019)</h5>
-        <p class="theme">Bachelor of Science</p>
-        <p class="work-p">Computer Science, GPA: 3.4</p>
-        <p><a href="https://www.tcu.edu" target="_blank" class="college-link">www.tcu.edu</a></p>
-      </div>
-      <div class="modal-footer modal-footer-custom">
-        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+    <div class="modal fade contact-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">
+              contact
+            </h5>
+            <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="work-p"> <img src="img/github.png" alt="Github Icon" width="15" height="15"> github </p>
+            <p><a href="https://github.com/zalaniz2" target="_blank" class="modal-link">github.com/zalaniz2</a></p>
+            <br>
+            <p class="work-p"> <img src="img/mail.png" alt="Github Icon" width="15" height="15"> email </p>
+            <p class="theme"> z.a.alaniz@tcu.edu</p>
+          </div>
+          <div class="modal-footer modal-footer-custom">
+            <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="modal fade proj-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content modal-custom">
-      <div class="modal-header modal-header-custom">
-        <h5 class="modal-title" id="exp-modal-title">projects</h5>
-        <button type="button" class="close exit-modal" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-
-      </div>
-      <div class="modal-footer modal-footer-custom">
-        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-  </body>
-
+</body>
 </html>
